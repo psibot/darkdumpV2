@@ -15,7 +15,7 @@ chmod +x install.sh
 ./install.sh
 darkdump
 ```
-Note: ./install might require ``sudo`` for macOS. 
+Note: ./install.sh might require ``sudo`` for macOS. 
 
 This installs all dependencies and creates two commands:
 
