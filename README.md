@@ -1,12 +1,8 @@
 # darkdump
 
----
-
 ## About
 
 Darkdump is an open-source OSINT tool for deep web investigation. Given a search query it fetches results from multiple dark web search engines, optionally scrapes each result site for emails, metadata, keywords, documents, and images, and streams everything live to either the terminal or a local browser-based interface. All results are automatically filtered against Ahmia's public abuse blacklist regardless of which engine is used.
-
----
 
 ## Installation
 
@@ -36,8 +32,6 @@ pip3 install -r darkdump-web/requirements.txt
 
 To uninstall the launchers: `./uninstall.sh`
 
----
-
 ### Tor Configuration 
 To use Darkdump effectively, you need to configure Tor to allow your script to control it via the Tor control port. Here's how to set up your `torrc` file and verify that Tor is running: <br/>
 
@@ -61,8 +55,6 @@ Replace `[YourHashedPasswordHere]` with a hashed password which can be generated
 Linux: `sudo systemctl start tor.service`<br/>
 MacOS: `brew services start tor`<br/>
 
----
-
 ## Search Engines
 
 Six engines are available via `-e` / `--engine`:
@@ -77,8 +69,6 @@ Six engines are available via `-e` / `--engine`:
 | `excavator`  | **No**   | Yes          | General dark web index — confirmation required |
 
 All engines have their results checked against Ahmia's blacklist. Unfiltered engines will prompt for confirmation before executing. This strategy is still not perfect, always use extreme caution and judgement when searching and scraping unfiltered engines. 
-
----
 
 ## CLI Usage
 
@@ -129,8 +119,6 @@ darkdump-cli --breach -q admin@example.com -e ahmia -p
 darkdump-cli --breach --breach-deep -q example.com -e ahmia
 ```
 
----
-
 ## Web Interface
 
 Darkdump includes a local browser-based interface.
@@ -155,15 +143,11 @@ Then open `http://127.0.0.1:50001` in your browser.
 - Breach intelligence scan mode
 - Export results as JSON, CSV, or TXT
 
----
-
 ## Preview
 
 <p align="center">
   <img src="imgs/darkdump_example.png" alt="Darkdump example">
 </p>
-
----
 
 ## Ethical Notice
 
