@@ -146,7 +146,7 @@ Then open `http://127.0.0.1:50001` in your browser.
 ## Preview
 
 <p align="center">
-  <img src="imgs/darkdump_example.png" alt="Darkdump example">
+  <img src="https://github.com/josh0xA/darkdump/blob/main/imgs/darkdump_example.png?raw=true" alt="Darkdump example">
 </p>
 
 ## Ethical Notice
