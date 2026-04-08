@@ -11,7 +11,9 @@ Darkdump is an open-source OSINT tool for deep web investigation. Given a search
 ```bash
 git clone https://github.com/josh0xA/darkdump
 cd darkdump
+chmod +x install.sh
 ./install.sh
+darkdump
 ```
 
 This installs all dependencies and creates two commands:
